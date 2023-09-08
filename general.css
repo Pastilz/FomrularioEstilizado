@@ -1,0 +1,60 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background-image: url(../img/background\ paris.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:120%;
+}
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 30%;
+    max-height: 90%;
+}
+header {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(245, 255, 158);
+    background-size: 60px;
+    max-height: 10%;
+}
+h1 {
+    text-align: center ;
+}
+input, select, button {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+select {
+    width: 414px;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(245, 255, 158);
+    border: 1px solid rgb(235, 252, 80);
+    color: black;
+    width: 414px;
+}
+button:hover  {
+    background-color: yellow;
+    color: black;
+    transition: 2s;
+}
+h3 {
+    margin-top: 20px;
+}
+footer {
+    background-color: rgb(245, 255, 158);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
